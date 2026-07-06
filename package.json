@@ -1,0 +1,35 @@
+{
+  "name": "test_pro",
+  "version": "1.0.0",
+  "description": "demo project",
+  "keywords": [
+    "post",
+    "like",
+    "comment",
+    "content"
+  ],
+  "homepage": "https://github.com/sunejay/test_pro#readme",
+  "bugs": {
+    "url": "https://github.com/sunejay/test_pro/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunejay/test_pro.git"
+  },
+  "license": "MIT",
+  "author": "Sune Jack",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "hbs": "^4.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
